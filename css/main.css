@@ -14,18 +14,27 @@
 
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(100, 129, 168);
+  background-color: rgb(18, 48, 87);
 }
 .header h1 {
+  font-style: oblique;
+  padding-left: 30px;
   color: aliceblue;
 }
 .menu {
-  background-color: rgb(190, 158, 209);
+  background-color: rgb(18, 48, 87);
+}
+.munu-ul{
+  display: flex;
+  margin-top: 30px;
+  margin-right: 20px;
 }
 ul li {
   list-style: none;
-  padding: 10px 20px;
-  background-color: aqua;
+  padding: 15px 40px;
+  background-color: rgb(112, 121, 121);
+  color: antiquewhite;
+  font-weight: bold;
 }
 
 /* 메인 */
