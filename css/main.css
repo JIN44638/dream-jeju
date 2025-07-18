@@ -1,0 +1,32 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrap {
+  width: 1200px;
+  margin: auto;
+}
+/* 상단 */
+.header {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(100, 129, 168);
+}
+.header h1 {
+  color: aliceblue;
+}
+.menu {
+  background-color: rgb(190, 158, 209);
+}
+ul li {
+  list-style: none;
+  padding: 10px 20px;
+  background-color: aqua;
+}
+
+/* 메인 */
+/* 하단 */
