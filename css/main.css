@@ -24,7 +24,7 @@
 .menu {
   background-color: rgb(18, 48, 87);
 }
-.munu-ul{
+.munu-ul {
   display: flex;
   margin-top: 30px;
   margin-right: 20px;
@@ -36,6 +36,47 @@ ul li {
   color: antiquewhite;
   font-weight: bold;
 }
+/* 메인 상단*/
+.main {
+  background-color: rgb(190, 178, 194);
+}
+.main-top {
+  padding: 70px;
+}
+.healing-img {
+  display: flex;
+}
+.healing-img > img {
+  width: 500px;
+  border-radius: 15px;
+}
+.healing-text {
+  margin-left: 30px;
+}
+.healing-text-h5 {
+  margin-bottom: 10px;
+}
+.healing-text > h4 {
+  margin-top: 100px;
+}
+.main-top > h3 {
+  padding: 20px;
+}
+.healing-text-h4 {
+  margin-bottom: 10px;
+}
 
-/* 메인 */
-/* 하단 */
+/* 메인하단 */
+.img-wrap {
+  width: 500px;
+  height: 321px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.img-wrap img {
+  width: 100%;
+  transition: all 0.3s;
+}
+.img-wrap:hover img {
+  transform: scale(1.2);
+}
